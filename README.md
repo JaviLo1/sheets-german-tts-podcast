@@ -43,4 +43,5 @@ Optional helper: auto-fill missing German example sentences for a list of words 
 - **Do not commit API keys or service account JSONs** to GitHub.  
 - This project expects secrets to be stored in **Apps Script Properties**:  
   - `OPENAI_API_KEY`  
-  - `SERVICE_ACCOUNT_KEY_FILE_ID` 
+  - `SERVICE_ACCOUNT_KEY_FILE_ID`  
+- A `.gitignore` is included to prevent accidental commits of sensitive files.
