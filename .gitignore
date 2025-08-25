@@ -1,0 +1,18 @@
+# Common
+.env
+*.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Keys / secrets
+*.json
+keys/
+secrets/
+credentials/
+
+# Node (if you later add tooling)
+node_modules/
+
+# Apps Script (clasp) – keep ignored if you ever store secrets there
+# .clasp.json
